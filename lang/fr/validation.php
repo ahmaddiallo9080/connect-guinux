@@ -1,0 +1,47 @@
+<?php
+
+return [
+    'accepted' => 'Le champ :attribute doit être accepté.',
+    'confirmed' => 'La confirmation du champ :attribute ne correspond pas.',
+    'email' => 'Le champ :attribute doit être une adresse e-mail valide.',
+    'exists' => 'La valeur sélectionnée pour :attribute est invalide.',
+    'file' => 'Le champ :attribute doit être un fichier.',
+    'image' => 'Le fichier :attribute doit être une image.',
+    'integer' => 'Le champ :attribute doit être un nombre entier.',
+    'max' => [
+        'numeric' => 'Le champ :attribute ne peut pas dépasser :max.',
+        'file' => 'Le fichier :attribute ne peut pas dépasser :max Ko.',
+        'string' => 'Le champ :attribute ne peut pas dépasser :max caractères.',
+        'array' => 'Le champ :attribute ne peut pas contenir plus de :max éléments.',
+    ],
+    'mimes' => 'Le fichier :attribute doit être de type : :values.',
+    'mimetypes' => 'Le fichier :attribute doit être de type : :values.',
+    'min' => [
+        'numeric' => 'Le champ :attribute doit être au moins :min.',
+        'file' => 'Le fichier :attribute doit faire au moins :min Ko.',
+        'string' => 'Le champ :attribute doit contenir au moins :min caractères.',
+        'array' => 'Le champ :attribute doit contenir au moins :min éléments.',
+    ],
+    'numeric' => 'Le champ :attribute doit être un nombre.',
+    'required' => 'Le champ :attribute est obligatoire.',
+    'required_without' => 'Le champ :attribute est obligatoire si :values n\'est pas renseigné.',
+    'string' => 'Le champ :attribute doit être un texte.',
+    'unique' => 'Cette valeur de :attribute est déjà utilisée.',
+    'uploaded' => 'Le fichier :attribute n\'a pas pu être envoyé.',
+
+    'attributes' => [
+        'name' => 'nom',
+        'email' => 'e-mail',
+        'phone' => 'téléphone',
+        'subject' => 'sujet',
+        'body' => 'message',
+        'password' => 'mot de passe',
+        'price' => 'prix',
+        'old_price' => 'ancien prix',
+        'stock' => 'stock',
+        'image' => 'image',
+        'category_id' => 'catégorie',
+        'short_description' => 'description courte',
+        'description' => 'description',
+    ],
+];
